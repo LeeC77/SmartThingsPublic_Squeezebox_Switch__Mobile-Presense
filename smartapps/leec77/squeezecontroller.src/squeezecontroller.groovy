@@ -4,6 +4,7 @@
  *  Copyright 2014 Mike Maxwell
  *  Orginal updated by Lee Charlton to handle volume control, status refresh, sync and unsync and playlists.
  *  Updated again by Lee Charlton to add auto refresh of status on all players.
+ *	And again to add music library rescan
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
  *  in compliance with the License. You may obtain a copy of the License at:
