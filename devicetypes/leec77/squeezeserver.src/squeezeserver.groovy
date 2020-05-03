@@ -1,5 +1,5 @@
 /**
- *  squeezeSwitch
+ *  Squeeze Server
  *
  *  Copyright 2014 Mike Maxwell
  *  Orginal update by Lee Charlton to handle volume control, status refresh, sync and unsync and playlists.
@@ -860,7 +860,7 @@ def SBSResp (response){
     def strlength=rsp.length()-3
     // log.debug "length is $strlength"
     rsp=rsp[0..strlength]
-    //log.debug "Modified response is:${rsp}"
+    log.debug "Modified response is:${rsp}"
     // Try to match sync reply //
     if(rsp.indexOf("sync")>=0){
     	//log.debug "sync from SBS"
