@@ -12,12 +12,12 @@ Readme Contents List
 
 
 Introduction
-All code contained here has been developed and test ( to some degree) on Samsung SmartThings using the Hub V2 and the classic App. 
+All code contained here has been developed and tested (to some degree) on Samsung SmartThings using the Hub V2 and the classic App. 
 Often additional developments not in Groovy are reference, linked or retained in the repository to build devices or implement functions elsewhere in my smart home environment.
 
 Squeezebox Switch Project
-The files in this repository are the latest versions of the SmartThings Apss and evice handlers. 
-A more complete project with all the insatalltion and  more detailed instruction is available here: https://github.com/LeeC77/SmartThings-and-Squeezebox-Controller. The intent is to keep this project up to date with significant changes.
+The files in this repository are the latest versions of the SmartThings Apps and device handlers. 
+A more complete project with all the insatallation and  more detailed instruction is available here: https://github.com/LeeC77/SmartThings-and-Squeezebox-Controller. The intent is to keep this project up to date with significant changes.
 
 Mobile Presence Project
 This project uses a repurposed Sonoff switch to track the connection status of up to 10 Wi-Fi enabled devices or mobile phones. The Sonoff switch communicates over WiFi to a device handler that make the connection status of each mobile device available in SmartThings . Finally a Smart App subscribes to the status of the device handler and sets the status of forcible presence devices accordingly.
